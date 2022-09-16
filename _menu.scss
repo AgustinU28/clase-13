@@ -1,7 +1,11 @@
+$colortext:rgb(255, 255, 255);
+$margintext: 60px 0;
+$colorfond:darkblue;
+
 ul{
     list-style: none;
     padding:0% ;
-    margin: 60px 0;
+    margin: $margintext;
 }
 li{
 
@@ -10,8 +14,8 @@ li{
 
  a{
 text-decoration: none;
-color: white;
+color: $colortext;
 padding: 20px;
-background-color: darkblue;
+background-color: $colorfond;
 
 }
